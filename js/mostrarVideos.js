@@ -26,7 +26,7 @@ async function listaVideos(){
 
 listaVideos();
 
-
+document.addEventListener("DOMContentLoaded", () => {
 const formularioExcluir = document.querySelector("[data-formulario-remover]");
 
 async function excluirVideo(evento) {
@@ -59,3 +59,5 @@ async function excluirVideo(evento) {
 }
 
 formularioExcluir.addEventListener("submit", evento => excluirVideo(evento));
+
+});

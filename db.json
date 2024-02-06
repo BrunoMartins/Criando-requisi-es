@@ -85,11 +85,18 @@
       "id": "12"
     },
     {
-      "id": "b2e0",
       "titulo": "Conhecendo o NextJS",
-      "descricao": "1 mil vizualizações",
+      "descricao": "5 mil vizualizações",
       "url": "https://www.youtube.com/embed/YHpG6t91oW8",
-      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+      "id": "N-YLQEu"
+    },
+    {
+      "titulo": "Conhecendo o NextJS",
+      "descricao": "2 mil vizualizações",
+      "url": "https://www.youtube.com/embed/YHpG6t91oW8",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+      "id": "snbq_lJ"
     }
   ]
 }
