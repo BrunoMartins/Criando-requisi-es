@@ -50,6 +50,12 @@ body {
     padding: 15px;
 }
 
+.cabecalho__btn-remover{
+    background-color: var(--azul-escuro);
+    padding: 8px;
+    border-radius: 8px;
+}
+
 
 /* ESTILOS DA SEÇÃO VÍDEOS */
 
