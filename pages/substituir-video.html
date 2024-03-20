@@ -33,25 +33,31 @@
 
     <main class="container">
 
-        <form class="container__formulario" data-formulario>
-            <h2 class="formulario__titulo">Envie um vídeo!</h3>
+        <form class="container__formulario" data-formulario-substituir>
+            <h2 class="formulario__titulo">Substitua um vídeo!</h3>
                 <div class="formulario__campo">
-                    <label class="campo__etiqueta" for="url">Link embed</label>
+                    <label class="campo__etiqueta" for="url">Link do video que será substituido</label>
                     <input name="url" class="campo__escrita" required
-                        placeholder="Por exemplo: https://www.youtube.com/embed/FAY1K2aUg5g" id='url' data-url />
+                        placeholder="Por exemplo: https://www.youtube.com/embed/FAY1K2aUg5g" id='url' data-url-substituir />
+                </div>
+
+                <div class="formulario__campo">
+                    <label class="campo__etiqueta" for="url">Link do video novo</label>
+                    <input name="url" class="campo__escrita" required
+                        placeholder="Por exemplo: https://www.youtube.com/embed/FAY1K2aUg5g" id='url' data-url-novo />
                 </div>
 
 
                 <div class="formulario__campo">
-                    <label class="campo__etiqueta" for="titulo">Titulo do vídeo</label>
+                    <label class="campo__etiqueta" for="titulo">Titulo do vídeo novo</label>
                     <input name="titulo" class="campo__escrita" required placeholder="Neste campo, dê o nome do vídeo"
-                        id='titulo' data-titulo />
+                        id='titulo' data-titulo-novo />
                 </div>
 
                 <div class="formulario__campo">
-                    <label class="campo__etiqueta" for="imagem">Imagem de perfil</label>
+                    <label class="campo__etiqueta" for="imagem">Imagem de perfil do vídeo novo</label>
                     <input name="imagem" class="campo__escrita" required placeholder="Insira a url da imagem"
-                        id='imagem' data-imagem />
+                        id='imagem' data-imagem-novo />
                 </div>
 
                 <input class="formulario__botao" type="submit" />
@@ -59,7 +65,7 @@
 
 
     </main>
-    <script src="../js/criarVideo.js" type="module"></script>
+    <script src="../js/substituirVideo.js" type="module"></script>
 
 </body>
 
